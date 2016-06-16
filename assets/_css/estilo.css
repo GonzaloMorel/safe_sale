@@ -1,0 +1,207 @@
+/* 
+    Document   : estilo
+    Created on : 05-11-2013, 02:29:36 PM
+    Author     : ifalchetti
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.edit{ cursor: pointer;}
+
+#contenido{
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-top:50px;
+}
+fieldset{
+    margin-top: 40px;
+    float:left;
+    position:relative;
+}
+#tabs{
+    width: 70%;
+    margin: 80px auto;
+}
+
+#newTicket{
+    width: 50%;
+    margin: 80px auto;   
+}
+#homeTicket{   
+    width: 30%;
+    margin: 250px auto;   
+}
+#inputFile{
+    margin: 20px 0px;
+/*    padding: 10px;*/
+}
+#infoNew{
+    padding: 15px 0em ;
+    float: left;
+}
+td{
+    padding: 0.8em 1.2em;
+}
+#boton{
+    padding: 1em 50em;
+}
+#editTicket{
+    width: 50%;
+    margin: 80px auto;   
+}
+#muestraTicket{
+    width: 50%;
+    margin: 80px auto;   
+}
+#botones{
+    padding: 0em 10em;
+}
+#msgError{    
+    margin: 70px 100px;
+    float: left;
+}
+#footer{
+    float: left;
+    clear: both;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#footer img{
+    float: left; 
+    height: 100px;
+    margin-right: 50px;
+}
+#footer p{
+    float: left;
+    width: 85%;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 10px;
+    text-align: right;    
+    padding: 41px;   
+}
+#contenido{
+    min-height: 340px;
+}
+
+#loggin{
+    position:absolute;
+    float:left;
+    margin:100px auto;
+    padding:0;
+}
+
+#formCaso{
+    
+    width: 75%;
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+#formCaso div div div{
+    width: 50%;
+    /*margin-top: 0.8em;*/
+    float: left;
+    position: relative;
+}
+
+label{
+    width: 30%;
+    float:left;
+}
+
+input, select, textarea{
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+}
+
+#loggin{
+    margin: 0 30%;
+    float: left;
+    position:relative;
+    height: 40%;
+    margin-top: 100px;
+    width: 300px;
+}
+
+.buttones{
+    margin-top: 1em;
+    width: 50px;
+}
+
+#usuMenu{
+    font-size: 7pt;
+}
+
+h3 span{
+    cursor:pointer;
+}
+
+.form{
+    margin-top: 40px;
+    float:left;
+    position:relative;
+    width: 100%;
+}
+
+.form h3{
+    text-align:center;
+}
+
+.ui-widget-header{
+    width: 100%;
+}
+
+/*--------prueba-----*/
+#principal{
+    position:relative;
+    float:left;
+    min-width: 600px;
+    max-width: 800px;
+    height: 600px;
+    background-color: red;
+}
+
+#secundario{
+    position:relative;
+    float:left;
+    max-width: 320px;
+    min-width: 20px;
+    
+}
+
+#lateral, #porcentage{
+    position:relative;
+    float:left;
+    clear:both;
+    background-color: blue;
+}
+
+
+
+#porcentage span{
+    position:relative;
+    float:right;
+    width: 20px;
+    height: 300px;
+    cursor:pointer;
+}
+
+#lateral span{
+    position:relative;
+    float:right;
+    width: 20px;
+    height: 300px;
+    cursor:pointer;
+    
+}
+
+#lateralInt, #porcentageInt{
+    position:relative;
+    float:right;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+}
+

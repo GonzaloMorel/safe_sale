@@ -1,0 +1,387 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Gonzalo Morel
+Updated: Diciembre 2014
+Notes:	 base para sistema
+
+*/
+
+/*@import url('estilos.less');*/
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+.contenido{
+    margin-top: 110px;
+    min-height: 700px;
+}
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+ul, ol {
+    list-style: none;
+}
+.product{
+    
+}
+
+nav{
+    background-color: #eee;
+    //border: none;
+    height:100px;
+}
+
+#header{    
+    border-bottom: #2d559d 3px solid;
+}
+
+.padding-sm{
+    padding:5px;
+}
+
+/*body > .container {
+    padding: 60px 15px 0;
+}*/
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+#menu{
+    //font-weight: bold;
+}
+
+
+.text-blue{
+    color: #2d559d;
+}
+
+.bg-blue{
+    background-color: #2d559d;
+}
+
+.text-yellow{
+    color:#E0A300;
+}
+
+.bg-yellow{
+    background-color: #E0A300;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+	width: 200px;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+}
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	/*margin-top: 60px;*/
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+	background: url('../../assets/_images/carousel_medium_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../assets/_images/carousel_medium_02.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../assets/_images/carousel_medium_03.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#logo{
+    width:90px;
+}
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+.well {
+	margin: 20px 0;
+}
+
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail .price {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+
+.edit{ cursor: pointer;}
+
+.form-group{
+    width: 300px;
+}
+
+.tabla-modal{
+    width: 500px;
+}
+
+#modales{
+    max-width: 600px;
+}
+
+#mapaCargado{
+    width: 100%;
+    height: 100%;
+}
+
+.padding-none{
+    padding:0;
+}
+
+.margin-none{
+    margin: 0px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+	.thumbnail .price {
+		font-size: 14px;
+	}
+	
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+	#myCarousel .item { height: 310px; }
+	
+	#slide1 {
+		background: url('../../assets/_images/carousel_small_01.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../assets/_images/carousel_small_02.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../assets/_images/carousel_small_03.jpg') top center no-repeat;
+	}
+	
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px; }
+	
+	#slide1 {
+		background: url('../../assets/_images/carousel_large_01.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../assets/_images/carousel_large_02.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../assets/_images/carousel_large_03.jpg') top center no-repeat;
+	}
+
+}
+
+/* --------------------------------------
+   Menu multidimensional
+   -------------------------------------- */
+
+.dropdown-submenu{
+    position:relative;
+}
+
+.dropdown-submenu>.dropdown-menu{
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+/*    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;*/
+}
+
+.dropdown-submenu:hover>.dropdown-menu{
+    display:block;
+}
+
+.dropdown-submenu>a:after{
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    /*border-width:5px 0 5px 5px;*/
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+
+.dropdown-submenu:hover>a:after{
+    border-left-color:#ffffff;
+}
+
+.dropdown-submenu.pull-left{
+    float:none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu{
+    left:-100%;
+    margin-left:10px;
+/*    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;*/
+}
+
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
